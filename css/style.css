@@ -1,0 +1,42 @@
+:root {
+    --pattern-color: #4EA0FF;
+    --highlight-text: #FFff00;
+    --thead-color: #20A9E5;
+    --tr-color: #B1E5F2;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+body p {
+    margin: 0;
+}
+#bg-pattern {
+    width: 100%;
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    background-color: var(--pattern-color);
+    height: 8rem;
+    padding-left: 0.7rem;
+}
+
+.logo {
+    width: 10rem;
+    margin-top: 4.5rem;
+}
+#author{
+    color: #4EA0FF;
+
+}
+h1 
+{font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+.photo{
+    margin: 0.5rem;
+}
+
+.date {
+    font-size: 0.8rem;
+}
