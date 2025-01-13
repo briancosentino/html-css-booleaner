@@ -56,7 +56,32 @@ table {
     border-spacing: 0;
     text-align: left;
     width: 100%;
+    margin-bottom: 2rem;
 }
 .skyblue {
     background-color: var(--tr-color);
+}
+.suggested {
+margin: 0.5rem;
+}
+.bold {
+    font-weight: bold;
+}
+.sugg-img-1 {
+    background-image: url(../img/monitor.jpg);
+    width: 312px;
+    height: 207px;
+    color: white;
+    
+}
+.sugg-img-2 {
+    background-image: url(../img/graph.jpg);
+    width: 312px;
+    height: 207px;
+    color: white;
+    
+}
+.img-text{
+    margin-left: 1rem;
+    margin-top: 1rem;
 }
